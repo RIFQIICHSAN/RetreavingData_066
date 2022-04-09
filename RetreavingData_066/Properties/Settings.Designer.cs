@@ -33,5 +33,16 @@ namespace RetreavingData_066.Properties {
                 return ((string)(this["AdventureWorksConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-NNJOPBIC\\SQLEXPRESS;Initial Catalog=ProdiTI;User ID=sa;Passwor" +
+            "d=gmgm872wc0")]
+        public string ProdiTIConnectionString {
+            get {
+                return ((string)(this["ProdiTIConnectionString"]));
+            }
+        }
     }
 }
